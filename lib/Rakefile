@@ -1,0 +1,5 @@
+k :default => :run
+
+task :run do
+  require './lib/hello'
+end
