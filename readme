@@ -1,0 +1,513 @@
+t add hello.rb
+  206  git commit -m "First Commit"
+  207  git status
+  208  vi hello.rb
+  209  git status
+  210  git add hello.rb
+  211  git status
+  212  git commit
+  213  git status
+  214  vi hello.rb
+  215  git add hello.rb
+  216  vi hello.rb
+  217  git status
+  218  clear
+  219  git commit -m "Added a default value"
+  220  git status
+  221  git add
+  222  git add .
+  223  git status
+  224  git commit -m "Add a comment"
+  225  git log
+  226  git log --pretty=online
+  227  git log --pretty=oneline
+  228  git log --pretty=oneline --max-count=2
+  229  git log --pretty=oneline --since='5 minutes ago'
+  230  git log --pretty=oneline --until='5 minutes ago'
+  231  git log --pretty=oneline --author=<carl almodovar>
+  232  git log --pretty=oneline --author=<pnutbuttah123@gmail.com>
+  233  git log --pretty=oneline --all
+  234  git log --all --pretty=format: '%h %cd %s (%an)' --since='7
+  235  git log --all --pretty=format: '%h %cd %s (%an)' --since='7
+  236  git log --all --pretty=format: '%h %cd %s (%an)' --since='7 days ago'
+  237  git log --pretty=format: '%h %ad | %s%d [%an]' --graph --date=shourt
+  238  git log --pretty=format: '%h %ad | %s%d [%an]' --graph --date=short
+  239  it log --pretty=format: '%h %ad | %s%d [%an]' --graph --date=short
+  240  git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  241  git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'
+  242  cd.
+  243  cd .
+  244  cd ..
+  245  cd~
+  246  cd ~
+  247  ls
+  248  ls -a
+  249  vi gitconfig
+  250  cd workspace/
+  251  cd>
+  252  cd .
+  253  cd pwd
+  254  pwd
+  255  cd gitimmersion/gittutorial/
+  256  ls
+  257  cd work/
+  258  ls
+  259  cd hello/
+  260  git st
+  261  tupe
+  262  type
+  263  ls
+  264  vi hello.rb
+  265  git ci
+  266  ci
+  267  gi co
+  268  cd .
+  269  git co
+  270  cd~
+  271  cdcd ~
+  272  fit
+  273  st
+  274  git st
+  275  cdcd ~/workspace
+  276  cd >>
+  277  cd ..
+  278  cd..
+  279  cdcd ~
+  280  cdcd ~
+  281  git st .
+  282  cd ..
+  283  ls a-
+  284  ls 
+  285  cd .
+  286  cd ..
+  287  ls -a
+  288  vi .gitconfig
+  289  cdcd ~
+  290  cdls
+  291  cdls
+  292  cd ''
+  293  cd .
+  294  ls a-
+  295  ls -a
+  296  cd
+  297  ls -a
+  298  vi .gitconfig
+  299  cd /workspace/gitimmersion/gittutorial
+  300  cd /workspace/gitimmersion/gittutorial/
+  301  cd workspace
+  302  cd giimmersion
+  303  ls 
+  304  cd gitimmersion
+  305  cd /gittutorial/work/hello
+  306  cd gittutorial/work/hello
+  307  ls
+  308  git st
+  309  ls
+  310  git hist
+  311  git checkout <a9c4c58>
+  312  git checkout <f800a10>
+  313  git co <f800a10>
+  314  git checkout f800a10 
+  315  cat hell.rb
+  316  cat hello.rb
+  317  git checkout master
+  318  cat hello.rb
+  319  git tag v1
+  320  git checkout v1^
+  321  cat hello.rb
+  322  git tag v1-beta
+  323  git checkout v1
+  324  git checkout v1-beta
+  325  git tag
+  326  git hist master --all
+  327  git checkout master
+  328  vi hello.rb
+  329  git st
+  330  git checkout hello.rb
+  331  git status
+  332  cat hello.rb
+  333  vi hello.rb
+  334  git status
+  335  cat hello.rb
+  336  git add hello.rb
+  337  git status
+  338  git reset HEAD hello.rb
+  339  git checkout hello.rb
+  340  git status
+  341  cat hello.rb
+  342  vi hello.rb
+  343  cat hello.rb
+  344  git add hello.rb
+  345  git commit -m "fix my puts line"
+  346  cat hello.rb
+  347  git status
+  348  vi hello.r
+  349  vi hello.rb
+  350  git add hello.rb
+  351  git commit -m "Oops, we didn't want this commit"
+  352  git revert head
+  353  git revert HEAD
+  354  cat hello.rb
+  355  git his
+  356  git hist
+  357  git tag oops
+  358  git reset --hard v1
+  359  git hist
+  360  git hist --all
+  361  git tag -d oops
+  362  git hist --all
+  363  clear
+  364  vi hello.rb
+  365  cat hello.rb
+  366  vi hello.rb
+  367  cat hello.rb
+  368  git add hello.rb
+  369  git commit -m "replaced first in puts to name"
+  370  cat hello.rb
+  371  vi hello.rb
+  372  git add hello.rb
+  373  git commit --amend -m "Add an author/email comment"
+  374  git hist
+  375  cat hello.rb
+  376  mkdir lib
+  377  git mv hellor.rb lib
+  378  git mv hello.rb lib
+  379  git st
+  380  git commit -m "Moved hello.rb to lib"
+  381  touch Rakefile
+  382  vi Rakefile
+  383  cat Rakefile
+  384  git add Rakefile
+  385  git commit -m "Added a Rakefile."
+  386  rake
+  387  remove Rakefile
+  388  rm Rakefile
+  389  ls
+  390  rm hello.r
+  391  vi Rakefile
+  392  git add Rakefile
+  393  git commit -m "Added a Rakefile."
+  394  rake
+  395  cd lib
+  396  cd..
+  397  cd ..
+  398  ls
+  399  rm Rakfile
+  400  rmv Rakefile
+  401  rm Rakefile
+  402  ls
+  403  git add rakefile
+  404  git add Rakefile
+  405  ls
+  406  cd lib/
+  407  ls
+  408  cd .
+  409  cd ..
+  410  touch rakefile
+  411  vi rakefile
+  412  git add rakefile
+  413  git commit -m "added a rakefile"
+  414  rake
+  415  git mv rakefile  lib/
+  416  rake
+  417  rakefile
+  418  cd lib
+  419  rake
+  420  rakefile
+  421  ls
+  422  rm rakefile
+  423  ls
+  424  rn rakefile Rakefile
+  425  rename rakefile Rakefile
+  426  cd ..
+  427  cd lib/
+  428  mv rakefile hello/
+  429  rm rakefile
+  430  ls
+  431  cd ..
+  432  lis
+  433  ls
+  434  cd lib/
+  435  ls
+  436  gem install rake
+  437  cat rake
+  438  git add Rakefile
+  439  vi Rakefile
+  440  git add Rakefile
+  441  git commit -m "Added a Rakefile."
+  442  rake
+  443  git rake
+  444  git Rakefile
+  445  Rakefile
+  446  rake
+  447  cd lib/
+  448  rake
+  449  rake lib/.
+  450  ls
+  451  mv Rakefile hello
+  452  cd ..
+  453  ls
+  454  cd lib/
+  455  lis
+  456  ls
+  457  rm hello
+  458  ls
+  459  cd ..
+  460  ls
+  461  Touch Rakefile
+  462  touche Rakefile
+  463  vi Rakefile
+  464  git add Rakefile
+  465  git commit -m "Added a Rakefile."
+  466  rake
+  467  Rake
+  468  rake hello.rb
+  469  cd lib/
+  470  rake hello.rb
+  471  gem install rake
+  472  rake
+  473  rake lib/hello.rb
+  474  rake
+  475  ls
+  476  cd ..
+  477  rake lib/hello.rb
+  478  ls
+  479  rake
+  480  git add Rakefile
+  481  git commit -m "Added a Rakefile."
+  482  rake
+  483  rake hello.rb
+  484  rake lib/hello.rb
+  485  ls
+  486  cat hello.rb
+  487  cat lib/hello.rb
+  488  cd~
+  489  cd ..
+  490  cdls -C .GIT
+  491  cdls -C .git
+  492  cd -C .git
+  493  ls -C .GIT
+  494  ls -C .git
+  495  ls
+  496  ls -C .git
+  497  ls -A
+  498  cdls -C .git
+  499  cd workspace
+  500  ls -C .git
+  501  ls
+  502  ccd ..
+  503  cd ..
+  504  cd git/
+  505  cd workspace
+  506  cd gitimmersion
+  507  lis
+  508  ls
+  509  cd gittutorial
+  510  ls
+  511  list -C .GIT
+  512  list -C .git
+  513  ls -A
+  514  cd
+  515  ls -A
+  516  cd .gitconfig
+  517  lis
+  518  l
+  519  rm gitconfig
+  520  ls
+  521  ls -a
+  522  cd workspace 
+  523  ls -a
+  524  cd gitimmersion
+  525  ls
+  526  ls -a
+  527  cd ./
+  528  ls
+  529  ls -a
+  530  rake
+  531  ls
+  532  cd hello
+  533  cd work/hello/
+  534  cd work/
+  535  cd gittutorial/work/hello
+  536  ls -C .git
+  537  ls -C .git/objects
+  538  ls -C .git/objects/<dir>
+  539  ls -C .git/objects/dir
+  540  ls -C .git/objects/
+  541  dir
+  542  cd lib/
+  543  dir
+  544  cd ..
+  545  ls -C .git/objects/
+  546  ls -C .git/objects/"dir"
+  547  ls -C .git/objects/ <dir>
+  548  ls
+  549  rake
+  550  git add Rakefile
+  551  git commit -m "commit rakefile"
+  552  cd lib
+  553  dir
+  554  rake
+  555  rake trace
+  556  cd ..
+  557  ruby rake
+  558  Rake
+  559  rake
+  560  rakefile
+  561  ruby rake
+  562  cat rakefile
+  563  ls
+  564  cat Rakefile
+  565  rake
+  566  gem rake
+  567  rake
+  568  rake trace
+  569  .rake
+  570  .Rakefile
+  571  rake
+  572  rake ./lib/hello
+  573  ls
+  574  cat Rakefile
+  575  git add Rakefile
+  576  git commit -m "Added a Rakefile"
+  577  rake
+  578  gem uinstall rake ll.o
+  579  gem uinstall rake ll.0
+  580  gem rake
+  581  ruby rake
+  582  ls
+  583  rake
+  584  gem list
+  585  gem uninstall rake ll.0
+  586  rake
+  587  gem install rake
+  588  rake
+  589  ls -C .git/objects
+  590  ls -C .git/objects/ dir
+  591  ls -C .git/objects/< dir>
+  592  ls -C .git/objects/<dir>
+  593  ls -C .git/objects dir 
+  594  ls -C .git/objects/
+  595  ls -C .git/objects/43
+  596  ls -C .git/objects/40
+  597  ls -C .git/objects/09
+  598  ls -C .git/objects/53
+  599  cat .git/config
+  600  ls .git/refs
+  601  ls .git/refs/heads
+  602  ls .git/refs/tags
+  603  ls .git/refs/tags/v1
+  604  cat .git/refs/tags/v1
+  605  cat .git/HEAD
+  606  git hist --max-count=1
+  607  git cat-file -t 96ee164
+  608  git cat-file -t <96ee164>
+  609  git cat-file -t '96ee164'
+  610  git cat-file -t 96ee164
+  611  git cat-file -t '96ee164'
+  612  git cat-file -t 96ee164
+  613  git cat-file -t 52bb00e
+  614  git cat-file -p 52bb00e
+  615  git cat-file -p 4b3c983e6c6aa41441bf8663c3468f8c6542e8e5
+  616  git cat-file -p ad7f3a29a3f90229a9917b0cf814b61b48adae81
+  617  git cat-file -p 040000
+  618  git cat-file -p ad7f3a29a3f90229a9917b0cf814b61b48adae81
+  619  git cat-file -p 34bcea85776bfe832d39dde091b906aa8cbbb8cd 
+  620  git checkout -b greet
+  621  git status
+  622  lis
+  623  ls
+  624  rm Rakefile
+  625  ls
+  626  vi rakefile
+  627  rm rakefile
+  628  ls
+  629  touch rakefile.rb
+  630  vi rakefile.rb
+  631  git add rakefile.rb
+  632  git commit -m "added a rakefile."
+  633  rake
+  634  rakefile.rb
+  635  rake
+  636  rakefile.rb
+  637  rake
+  638  mv rakefile.rb lib/
+  639  cd lib
+  640  rake
+  641  ls
+  642  mv rakefile.rb ..
+  643  ls
+  644  cd ..
+  645  git checkout -b master
+  646  git checkout
+  647  git checkout -b master
+  648  git checkout master
+  649  ls
+  650  touch rakefile.rb
+  651  vi rakefile.rb
+  652  git add rakefile.rb
+  653  git commit -m "add a rakefile."
+  654  rake
+  655  rakefile.rb
+  656  git rake
+  657  rake
+  658  mv rakefile.rb lib/
+  659  cd lib
+  660  ls
+  661  rake
+  662  ls
+  663  rake
+  664  remove rakefile.rb
+  665  rem rakefile.rb
+  666  rm rakefile.rb
+  667  ls
+  668  touch rakefile.rb
+  669  vi rakefile.rb
+  670  git add rakefile.rb
+  671  git commit -m "added a rakefile"
+  672  rake
+  673  clear
+  674  rake
+  675  gem ruby 
+  676  rakefile.rb
+  677  rake
+  678  vi rakefile.rb
+  679  node
+  680  vi rakefile.rb
+  681  cd gitimmersion/gittutorial/work/hello
+  682  ls
+  683  mv rakefile.rb libs
+  684  mv rakefile.rb libs/
+  685  mv rakefile.rb lib/
+  686  cd libs
+  687  cd lib
+  688  ls
+  689  vi rakefile.rb
+  690  ls
+  691  cat rakefile.rb
+  692  rake
+  693  gem install rake
+  694  rake
+  695  git add rakefile.rb
+  696  git commit -m "Added a Rakefile"
+  697  rake
+  698  rake lib/hello.rb
+  699  rake
+  700  ls
+  701  rm rakefile
+  702  rm rakefile.rb
+  703  cd ..
+  704  touch Rakefile
+  705  c9 Rakefile
+  706  git add Rakefile
+  707  git commit -m "Added a Rakefile."
+  708  rake
+  709  git commit -m "Added a Rakefile."
+  710  rake
+  711  Rakefile
+  712  Rakefile.rb
+  713  ls
+  714  rake
+  715  cd ..
+  716  cd gitutorial
+  717  history
